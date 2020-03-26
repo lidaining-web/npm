@@ -1,0 +1,19 @@
+{
+  "name": "ldn-cli",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ldn-cli": "index.js"
+  },
+  "author": "ldn",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.3"
+  }
+}
