@@ -3,3 +3,6 @@
 
 # 修改npm命令
 > 位置: package.json --> "bin": {"ldn-cli": "index.js"} , 修改命令后执行 `npm link` 后才生效
+
+# 发布npm包
+> 执行`npm publish`, 前提: 登录npm账号
